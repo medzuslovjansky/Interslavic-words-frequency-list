@@ -48,6 +48,6 @@ for i, row in slovnik.iterrows():
 
 slovnik = slovnik.sort_values("frequency", ascending=False)
 
-with pd.ExcelWriter("freq_all_lang.xlsx") as writer:
+with pd.ExcelWriter("freq_all_langs.xlsx") as writer:
     slovnik.to_excel(writer)
     

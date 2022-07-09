@@ -91,3 +91,4 @@ def iskati(slovo, sheet):
 def is_in_dict(slovo, sheet):
     result = filtr_contain(slovo, sheet)
     return iskati(slovo, result)
+
